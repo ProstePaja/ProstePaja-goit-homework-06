@@ -543,6 +543,66 @@ img {
   fill: var(--portfolio-backroud);
 }
 
+/*subscribe*/
+
+.subscribe{
+  margin-left: 80px;
+  color: var(--background-color);
+}
+
+.subscribe-title{
+  display: inline-block;
+  font-family: var(--font-family);
+  margin-bottom: 20px;
+  font-weight: 500px;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  /*text-transform: uppercase;*/
+}
+
+.subscribe-form{
+  display: flex;
+  align-items: center;
+}
+
+.subscribe-email{
+  width: 358px;
+  height: 50px;
+  padding-left: 16px;
+
+  color: var(--background-color);
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+}
+
+.subscribe-button{
+  display: inline-block;
+  cursor: pointer;
+  /*font-family: var(--font-family);*/
+  border-radius: 4px;
+}
+
+.subscribe-button-more{
+  display: flex;
+  padding: 10px 28px;
+  margin: 0 auto;
+  gap: 16px;
+  align-items: center;
+  color: var(--background-color);
+  background-color: var(--portfolio-color);
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+
+.send-icon{
+  margin-left: 24px;
+}
+
 /*portfolio upravy*/
 .portfolio:hover,
 .portfolio:focus {
