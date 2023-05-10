@@ -495,8 +495,7 @@ img {
 }
 
 .complementary-text-footer-second{
-    margin-top: 0;
-  margin-bottom: 0;
+  margin-top: 0;
   padding-top: 0;
   padding-bottom: 0;
   font-weight: 500;
@@ -547,62 +546,72 @@ img {
 
 .subscribe{
   margin-left: 80px;
-  color: var(--background-color);
 }
 
 .subscribe-title{
-  display: inline-block;
+  margin: 0;
   font-family: var(--font-family);
-  margin-bottom: 20px;
-  font-weight: 500px;
+  margin-bottom: 16px;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  /*text-transform: uppercase;*/
-}
-
-.subscribe-form{
-  display: flex;
-  align-items: center;
-}
-
-.subscribe-email{
-  width: 358px;
-  height: 50px;
-  padding-left: 16px;
-
   color: var(--background-color);
-  background-color: transparent;
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  border-radius: 4px;
 }
 
-.subscribe-button{
-  display: inline-block;
-  cursor: pointer;
-  /*font-family: var(--font-family);*/
-  border-radius: 4px;
-}
-
-.subscribe-button-more{
+.footer-subscribe-form{
   display: flex;
-  padding: 10px 28px;
-  margin: 0 auto;
-  gap: 16px;
-  align-items: center;
+
+}
+
+.footer-subscribe-input{
+  width: 264px;
+  margin: 0;
+  border-radius: 4px;
+  border: 1px solid var(--background-color);
+  background-color: var(--hero-color);
   color: var(--background-color);
+  padding: 8px 16px;
+}
+
+.footer-subscribe-input::placeholder{
+  font-size: 12px;
+  line-height: 2;
+  color: var(--background-color);
+}
+
+.footer-subscribe-btn{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  border: none;
+  padding: 8px 24px;
+  border-radius: 4px;
+
   background-color: var(--portfolio-color);
+  color: var(--background-color);
+
   font-family: var(--font-family);
+  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-}
 
-.send-icon{
+  cursor: pointer;
+  min-height: 40px;
   margin-left: 24px;
 }
 
+.footer-subscribe-btn::after{
+  content: '';
+  display: inline-block;
+  width: 24px;
+  height: 20px;
+  margin-left: 16px;
+  background-image: url(../images/icon\ send.svg);
+}
 /*portfolio upravy*/
 .portfolio:hover,
 .portfolio:focus {
